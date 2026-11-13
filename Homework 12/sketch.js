@@ -6,7 +6,7 @@ let KickSFX
 let PianoSFX
 let TrumpetSFX
 
-function setup() {
+async function setup() {
 createCanvas(1500, 815);
 
 //No Outlines
@@ -17,14 +17,14 @@ rectMode(CENTER)
   
   angleMode(DEGREES)
   textAlign(CENTER)
-}
 
-//TriangleSFX = await loadSound("../assets/Triangle.wav");
-//CrashSFX = await loadSound("../assets/Crash.wav");
-//FluteSFX = await loadSound("../assets/Flute.wav");
-//KickSFX = await loadSound("../assets/Kick.wav");
-//PianoSFX = await loadSound("../assets/Piano.mp3");
-//TrumpetSFX = await loadSound("../assets/Trumpet.wav");
+TriangleSFX = await loadSound("../assets/Triangle.wav");
+CrashSFX = await loadSound("../assets/Crash.wav");
+FluteSFX = await loadSound("../assets/Flute.wav");
+KickSFX = await loadSound("../assets/Kick.wav");
+PianoSFX = await loadSound("../assets/Piano.mp3");
+TrumpetSFX = await loadSound("../assets/Trumpet.wav");
+}
 
 
 function draw() {
