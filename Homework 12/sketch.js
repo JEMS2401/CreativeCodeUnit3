@@ -19,12 +19,12 @@ rectMode(CENTER)
   textAlign(CENTER)
 }
 
-//TriangleSFX = await loadImage("../assets/Triangle.wav");
-//CrashSFX = await loadImage("../assets/Crash.wav");
-//FluteSFX = await loadImage("../assets/Flute.wav");
-//KickSFX = await loadImage("../assets/Kick.wav");
-//PianoSFX = await loadImage("../assets/Piano.mp3");
-//TrumpetSFX = await loadImage("../assets/Trumpet.wav");
+//TriangleSFX = await loadSound("../assets/Triangle.wav");
+//CrashSFX = await loadSound("../assets/Crash.wav");
+//FluteSFX = await loadSound("../assets/Flute.wav");
+//KickSFX = await loadSound("../assets/Kick.wav");
+//PianoSFX = await loadSound("../assets/Piano.mp3");
+//TrumpetSFX = await loadSound("../assets/Trumpet.wav");
 
 
 function draw() {
@@ -53,12 +53,13 @@ circle(width*.8,height*.7,70)
 
 function mousePressed() {
 
+//Disabled for reviewing convienence. Any mouse click will (attempt to) play the Triangle SFX.
 //Play Triangle SFX
-if (mouseX > width*.1 && mouseX < width*.3) {
-  if (mouseY > height*.3 && mouseY < height*.5) {
+//if (mouseX > width*.1 && mouseX < width*.3) {
+  //if (mouseY > height*.3 && mouseY < height*.5) {
 if (mouseIsPressed === true) {
 window.play(TriangleSFX);
 }
 }
-}
-}
+//}
+//}
