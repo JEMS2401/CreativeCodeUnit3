@@ -57,9 +57,18 @@ function mousePressed() {
 //Play Triangle SFX
 //if (mouseX > width*.1 && mouseX < width*.3) {
   //if (mouseY > height*.3 && mouseY < height*.5) {
-if (mouseIsPressed === true) {
-window.play(TriangleSFX);
-}
+TriangleSFX.play();
 }
 //}
 //}
+
+function keyPressed() {
+if (key === 'r') {
+   if(TriangleSFX.isPlaying()) {
+    TriangleSFX.stop();
+  }
+  else {
+    TriangleSFX.start();
+  }
+}
+}
