@@ -18,12 +18,12 @@ rectMode(CENTER)
   angleMode(DEGREES)
   textAlign(CENTER)
 
-TriangleSFX = await loadSound("../assets/Triangle.wav");
-CrashSFX = await loadSound("../assets/Crash.wav");
-FluteSFX = await loadSound("../assets/Flute.wav");
-KickSFX = await loadSound("../assets/Kick.wav");
-PianoSFX = await loadSound("../assets/Piano.mp3");
-TrumpetSFX = await loadSound("../assets/Trumpet.wav");
+TriangleSFX = await loadSound("../Assets/Triangle.wav");
+CrashSFX = await loadSound("../Assets/Crash.wav");
+FluteSFX = await loadSound("../Assets/Flute.wav");
+KickSFX = await loadSound("../Assets/Kick.wav");
+PianoSFX = await loadSound("../Assets/Piano.mp3");
+TrumpetSFX = await loadSound("../Assets/Trumpet.wav");
 }
 
 
