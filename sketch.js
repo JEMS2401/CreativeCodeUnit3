@@ -124,7 +124,7 @@ fill (255, 255, 255);
 }
 textSize(30);
 text('This one links to my sound page:', width*.5, height*.7)
-text('LINK', width*.5, height*.75)
+text('https://jems2401.github.io/CreativeCodeUnit3/Homework%2012/', width*.5, height*.75)
 pop();
 
 }
@@ -141,7 +141,7 @@ window.open("https://github.com/JEMS2401/CreativeCodeUnit3")
 if (mouseX > width*.25 && mouseX < width*.75) {
   if (mouseY > height*.65 && mouseY < height*.85) {
 if (mouseIsPressed === true) {
-window.open("https://github.com/JEMS2401/CreativeCodeUnit3")
+window.open("https://jems2401.github.io/CreativeCodeUnit3/Homework%2012/")
 }
 }
 }
